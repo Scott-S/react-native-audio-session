@@ -144,4 +144,17 @@ RCT_EXPORT_METHOD(setCategoryAndMode:(NSString *)category mode:(NSString *)mode 
     }
 }
 
+RCT_EXPORT_METHOD(availableInputs:(RCTResponseSenderBlock)callback)
+{
+    // portDesc.portType could be for example - BluetoothHFP, MicrophoneBuiltIn, MicrophoneWired
+    NSArray *availInputs = [[AVAudioSession sharedInstance] availableInputs];
+    int count = [availInputs count];
+    for (int k = 0; k < count; k++) {
+        AVAudioSessionPortDescription *portDesc = [availInputs objectAtIndex:k];
+        // NSLog(@"input%i port type %@", k+1, portDesc.portType);
+        // NSLog(@"input%i port name %@", k+1, portDesc.portName);
+        callback(@[portDesc.portType]);
+    }
+}
+
 @end
