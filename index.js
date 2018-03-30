@@ -117,7 +117,8 @@ const create = () => {
     setActive,
     setCategory,
     setMode,
-    setCategoryAndMode
+    setCategoryAndMode,
+    availableInputs
   }
 }
 
