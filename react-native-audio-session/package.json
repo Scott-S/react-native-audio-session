@@ -1,0 +1,55 @@
+{
+  "_from": "git+https://github.com/Scott-S/react-native-audio-session.git",
+  "_id": "react-native-audio-session@0.0.4",
+  "_inBundle": false,
+  "_location": "/react-native-audio-session",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "react-native-audio-session@git+https://github.com/Scott-S/react-native-audio-session.git",
+    "name": "react-native-audio-session",
+    "escapedName": "react-native-audio-session",
+    "rawSpec": "git+https://github.com/Scott-S/react-native-audio-session.git",
+    "saveSpec": "git+https://github.com/Scott-S/react-native-audio-session.git",
+    "fetchSpec": "https://github.com/Scott-S/react-native-audio-session.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/Scott-S/react-native-audio-session.git#287e45b7a894af54cdd810d38813e451d660ed17",
+  "_spec": "react-native-audio-session@git+https://github.com/Scott-S/react-native-audio-session.git",
+  "_where": "/Users/scott/Projects/parkmate",
+  "author": {
+    "name": "Johan Kasperi",
+    "email": "johan@kasperi.se"
+  },
+  "bugs": {
+    "url": "https://github.com/BonnierNews/react-native-audio-session/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "React Native module for handling the AVAudioSession instance on iOS.",
+  "homepage": "https://github.com/BonnierNews/react-native-audio-session#readme",
+  "keywords": [
+    "React",
+    "Native",
+    "native",
+    "iOS",
+    "audio",
+    "AVFoundation",
+    "AVAudioSession",
+    "bridge"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-audio-session",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scott-S/react-native-audio-session.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.4"
+}
